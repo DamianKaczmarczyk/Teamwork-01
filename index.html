@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>ANEMONE</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header_wrapper">
+        <button
+          class="hamburger hamburger--collapse js-open-menu mobile-menu__btn"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="modal window toggle"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+        <a
+          href="/index.html"
+          class="logo"
+          id="up-logo"
+          aria-label="logo Anemone"
+        >
+          <svg class="logo__icon">
+            <use href="/icons.svg#"></use>
+          </svg>
+        </a>
+        <nav class="navigation">
+          <ul class="list nav__list">
+            <li class="nav__item">
+              <a href="/index.html" class="nav__link">Anemone</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about-us" class="nav__link">About us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#store" class="nav__link">Store</a>
+            </li>
+            <li class="nav__item">
+              <a href="#delivery" class="nav__link">Delivery</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <button
+          data-modal-open=""
+          type="button"
+          class="header__tel-btn"
+          aria-label="calls window Contact us"
+        >
+          <svg class="header__icon">
+            <use href="/icons.svg#"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <section class="hero section">
+      <div class="container hero__container">
+        <h1 class="hero__title">ANEMONE</h1>
+        <h2 class="hero__mintitle">flower studio</h2>
+        <div class="hero__img">
+          <picture>
+            <source media="" srcset="" />
+            <source media="" srcset="" />
+            <source media="" srcset="" />
+            <img
+              src="/hero-mb@1x.ae6847c3.png"
+              alt="flower"
+              width="390"
+              height="636"
+            />
+          </picture>
+        </div>
+        <button
+          data-modal-open=""
+          class="hero__btn"
+          type="button"
+          aria-label="contact us"
+        >
+          <svg class="hero__btn-svg" width="64" height="76">
+            <use href="/icons.svg#"></use>
+          </svg>
+        </button>
+      </div>
+    </section>
+    <section class="about section" id="about-us">
+      <div class="container">
+        <h2 class="about__title subtitle">about</h2>
+        <div class="about__wrapper">
+          <p class="about__text">
+            We are a minimalistic flower studio. We love people and flowers.
+            Therefore, every day we give people the beauty and joy creating
+            stylish and modern masterpieces. Every bouquet we create is unique
+            as you are.
+          </p>
+          <picture>
+            <source media="" srcset="" />
+            <source media="" srcset="" />
+            <source media="" srcset="" />
+            <source media="" srcset="" />
+            <source media="" srcset="" />
+            <source media="" srcset="" />
+            <img
+              src=""
+              alt="flovers"
+              class="about__img"
+              width="632"
+              height="344"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+    <section class="section store" id="store">
+      <div class="container">
+        <h2 class="store__title subtitle">STORE</h2>
+        <ul class="list store__list">
+          <li class="store__item">
+            <div class="store__card">
+              <picture>
+                <source srcset="" media="" />
+                <source srcset="" media="" />
+                <source srcset="" media="" />
+                <img src="" alt="flower from compliment" class="store__img" />
+              </picture>
+              <h3 class="store__title__item">compliments</h3>
+              <p class="store__item__price">from $15</p>
+            </div>
+          </li>
+          <li class="store__item">
+            <div class="store__card">
+              <picture>
+                <source srcset="" media="" />
+                <source srcset="" media="" />
+                <source srcset="" media="" />
+                <img src="" alt="small bouquets" class="store__img" />
+              </picture>
+              <h3 class="store__title__item">bouquets size S</h3>
+              <p class="store__item__price">from $25</p>
+            </div>
+          </li>
+          <li class="store__item">
+            <div class="store__card">
+              <picture>
+                <source srcset="" media="" />
+                <source srcset="" media="" />
+                <source srcset="" media="" />
+                <img src="" alt="midle bouquets" class="store__img" />
+              </picture>
+              <h3 class="store__title__item">bouquets size M</h3>
+              <p class="store__item__price">from $45</p>
+            </div>
+          </li>
+          <li class="store__item">
+            <div class="store__card">
+              <picture>
+                <source srcset="" media="" />
+                <source srcset="" media="" />
+                <source srcset="" media="" />
+                <img src="" alt="large bouquets" class="store__img" />
+              </picture>
+              <h3 class="store__title__item">bouquets size L</h3>
+              <p class="store__item__price">from $60</p>
+            </div>
+          </li>
+        </ul>
+        <button type="button" data-modal-open="" class="btn">
+          Order flowers
+        </button>
+      </div>
+    </section>
+    <section class="delivery section" id="delivery">
+      <div class="container">
+        <h2 class="subtitle">DELIVERY</h2>
+        <ul class="delivery__list list">
+          <li class="delivery__item">
+            <div class="delivery__number">1</div>
+            <p class="delivery__txt">
+              Choose your bouquet and make an order on website
+            </p>
+          </li>
+          <li class="delivery__item">
+            <div class="delivery__number">2</div>
+            <p class="delivery__txt">
+              Wait for the call to clarify the details of the order. You can pay
+              online or to the courier
+            </p>
+          </li>
+          <li class="delivery__item">
+            <div class="delivery__number">3</div>
+            <p class="delivery__txt">
+              Wait for the delivery at the selected time or pick up the order
+              from the store
+            </p>
+          </li>
+          <li class="delivery__item">
+            <div class="delivery__number">4</div>
+            <p class="delivery__txt">Make someone happy or enjoy yourself</p>
+          </li>
+        </ul>
+      </div>
+      <picture>
+        <source srcset="" media="" />
+        <source srcset="" media="" />
+        <source srcset="" media="" />
+        <img
+          src=""
+          class="delivery-foto"
+          alt="delicate anemone flowers"
+          width="1280"
+          height="391"
+        />
+      </picture>
+    </section>
+    <section>
+      <div class="slider">
+        <ul class="slider__list">
+          <li class="slider__item">
+            <picture>
+              <source srcset="" media="" />
+              <source srcset="" media="" />
+              <source srcset="" media="" />
+              <img src="" class="slider-foto" alt="" width="" height="" />
+            </picture>
+          </li>
+          <li class="slider__item">
+            <picture>
+              <source srcset="" media="" />
+              <source srcset="" media="" />
+              <source srcset="" media="" />
+              <img src="" class="slider-foto" alt="" width="" height="" />
+            </picture>
+          </li>
+          <li class="slider__item">
+            <picture>
+              <source srcset="" media="" />
+              <source srcset="" media="" />
+              <source srcset="" media="" />
+              <img src="" class="slider-foto" alt="" width="" height="" />
+            </picture>
+          </li>
+        </ul>
+      </div>
+      <p class="blog__text">Follow to our newsletter</p>
+      <button data-modal-open1="" class="blog-btn btn">Subscribe</button>
+    </section>
+    <footer class="footer">
+      <div class="container container__footer">
+        <div class="footer__logo">
+          <a href="/index.html">
+            <svg class="footer__logo--icon">
+              <use href="icons.svg#"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="footer__nav wth">
+          <nav>
+            <p class="footer__title">Navigation</p>
+            <ul class="footer__nav--list list">
+              <li class="footer__item">
+                <a href="/index.html" class="footer__link link">Anemone</a>
+              </li>
+              <li class="footer__item">
+                <a href="#about-us" class="footer__link link">About us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#store" class="footer__link link">Store</a>
+              </li>
+              <li class="footer__item">
+                <a href="#delivery" class="footer__link link">Delivery</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__worktime wth">
+          <p class="footer__title">Opening times</p>
+          <p class="footer__worktime-item">
+            Every day<br />
+            <time>09:00</time> - <time>22:00</time>
+          </p>
+        </div>
+        <div class="footer__address wth">
+          <address>
+            <p class="footer__title">Contacts</p>
+            <ul class="list">
+              <li class="footer__item link">
+                <a href="tel:+380961111111" class="footer__link"
+                  >+38 063 123 45 67</a
+                >
+              </li>
+              <li class="footer__item link">
+                <a href="mailto:anemonestudio@example.com" class="footer__link"
+                  >anemonestudio<span class="footer__item--transfer"
+                    >@example.com</span
+                  ></a
+                >
+              </li>
+              <li class="footer__item link">
+                <a
+                  href="https://goo.gl/maps/VUioy3CtNrJPVxb39"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-footer__map"
+                  >Reitarska Street, 11 Kyiv, Ukraine</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="socials__footer wth">
+          <ul class="list socials__footer--list">
+            <li class="socials__footer--item">
+              <a
+                href="https://www.facebook.com/"
+                class="socials-footer__styles"
+                aria-label="facebook"
+              >
+                <svg width="28" height="28">
+                  <use href="/icons#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__list">
+              <a
+                href="https://www.instagram.com/"
+                class="socials-footer__styles"
+                aria-label="instagram"
+              >
+                <svg width="28" height="28">
+                  <use href="/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

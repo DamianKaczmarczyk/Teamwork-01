@@ -1,0 +1,15 @@
+@use "./utils/mixins" as *;
+@import ".utils/modern-normalize.min.css";
+@import "./utils/vars";
+@import "./utils/global";
+@import "./components/advantages";
+@import "./components/cards";
+@import "./components/clients";
+@import "./components/filters";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/headline";
+@import "./components/modal";
+@import "./components/team";
+@import "./components/offer";
+@import "./components/mobile-menu";
