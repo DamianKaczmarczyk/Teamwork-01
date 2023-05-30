@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+}
+body {
+  font-family:$main-font;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
+}
+.section {
+  padding: 60px 0;
+  @include tablet {
+  padding: 60px 0;
+  }
+  @include desktop {
+    padding: 94px 0;
+  }
+}
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width:100%;
+  max-width: 480px;
+  @include tablet {max-width: 768px;
+  }
+  @include tablet {max-width: 1200px;
+}
+}
+img {
+    display: block;
+  }
+  input {
+    border: none;
+    outline: none;
+  }
