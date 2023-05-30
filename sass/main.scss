@@ -1,0 +1,14 @@
+@use "./utils/mixins" as *;
+@import ".utils/modern-normalize.min.css";
+@import "./utils/vars";
+@import "./utils/global";
+@import "./components/about";
+@import "./components/blog";
+@import "./components/delivery";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/mobile-menu";
+@import "./components/modal-contact-us";
+@import "./components/modal-follow";
+@import "./components/store";
