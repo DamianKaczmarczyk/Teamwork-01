@@ -25,20 +25,22 @@ a {
 .section {
   padding: 60px 0;
   @include tablet {
-  padding: 60px 0;
+  padding: 100px 0;
   }
   @include desktop {
-    padding: 94px 0;
+    padding: 100px 0;
   }
 }
 .container {
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
   width:100%;
   max-width: 480px;
   @include tablet {max-width: 768px;
+    padding:0 24px;
   }
-  @include tablet {max-width: 1200px;
+  @include tablet {max-width: 1280px;
+    
 }
 }
 img {
