@@ -4,12 +4,10 @@
     display: none;
   }
   @include desktop {
-    .footer {
-      &__logo {
-        display: block;
-        &--light {
-          fill: $svg-light;
-        }
+    &__logo {
+      display: block;
+      &--light {
+        fill: $svg-light;
       }
     }
   }
