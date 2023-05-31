@@ -1,9 +1,16 @@
 .footer {
+  background-color: $color-dark;
   &__logo {
-    &--light {
-      fill: $white-font;
+    display: none;
+  }
+  @include desktop {
+    .footer {
+      &__logo {
+        display: block;
+        &--light {
+          fill: $svg-light;
+        }
+      }
     }
   }
-}
-.container__footer {
 }
