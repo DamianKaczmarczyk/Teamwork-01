@@ -52,7 +52,7 @@ a {
   @include tablet {
     justify-content: space-evenly;
     align-items: flex-start;
-    gap: 40px;
+    // gap: 40px;
   }
   @include desktop {
     justify-content: space-between;
